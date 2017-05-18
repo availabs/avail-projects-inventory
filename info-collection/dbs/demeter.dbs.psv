@@ -1,0 +1,80 @@
+         Name          |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
+-----------------------+----------+----------+-------------+-------------+-----------------------
+ HPMS                  | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ NHS_NPMRDS            | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ QWI                   | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ TaxParcels            | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ WIM                   | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ ax                    | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ b3admin               | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ commercehub           | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ discourse             | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ discourse_development | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ discourse_test        | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ geocensus             | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ gis                   | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ gtfs                  | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ gtfsgeocensus         | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ infogroup             | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ mesonet               | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ njtdmData             | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ ny_parcels            | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ padware               | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ postgres              | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ puppies               | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ qcew                  | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ stormEvents           | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ tdmData               | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ template0             | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ template1             | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ transitModeler        | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ us_census             | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ us_census2            | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ wimClient             | paul     | UTF8     | en_US.UTF-8 | en_US.UTF-8 | demeter
+ npmrds_api 		   | npmrds_user | UTF8     | en_US.UTF-8 | en_US.UTF-8 | hermes
+ NHS_NPMRDS 		   | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | lor
+ WIM        		   | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | lor
+ gtfs       		   | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | lor
+ AVAILstats             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ HPMS                   | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ NHS_NPMRDS             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ QWI                    | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ TaxParcels             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ WIM                    | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ avail_auth             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ ax                     | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ b3admin                | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ bds_establishment      | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres                    +
+ bds_establishment_2012 | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres                    +
+ bds_firm               | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres                    +
+ bds_firm_2012          | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres                    +
+ commercehub            | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ ctpp                   | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ discourse              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ discourse_development  | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ discourse_test         | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ gis                    | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ gtfs                   | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ gtfsgeocensus          | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ height                 | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ infogroup              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ mesonet                | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ njtdmData              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ npmrds                 | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ npmrds_api             | npmrds_user | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/npmrds_user                 +
+ ny_parcels             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ padware                | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres               | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ qcew                   | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ qwi_api                | qwi_user    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/qwi_user                    +
+ stormEvents            | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ tdmData                | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres                     +
+ template1              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres                     +
+ transearch_2004        | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ transearch_2012        | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ transitModeler         | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ us_census              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ us_census2             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ wimClient              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+

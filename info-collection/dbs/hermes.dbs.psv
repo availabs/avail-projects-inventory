@@ -1,0 +1,12 @@
+                                       List of databases
+    Name    |    Owner    | Encoding |   Collate   |    Ctype    |      Access privileges      
+------------+-------------+----------+-------------+-------------+-----------------------------
+ npmrds_api | npmrds_user | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/npmrds_user            +
+            |             |          |             |             | npmrds_user=CTc/npmrds_user
+ postgres   | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0  | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres                +
+            |             |          |             |             | postgres=CTc/postgres
+ template1  | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres                +
+            |             |          |             |             | postgres=CTc/postgres
+(4 rows)
+

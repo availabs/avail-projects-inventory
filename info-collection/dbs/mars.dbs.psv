@@ -1,0 +1,60 @@
+                                               List of databases
+          Name          |    Owner    | Encoding |   Collate   |    Ctype    |        Access privileges         
+------------------------+-------------+----------+-------------+-------------+----------------------------------
+ AVAILstats             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ HPMS                   | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ NHS_NPMRDS             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ QWI                    | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ TaxParcels             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ WIM                    | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ avail_auth             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ ax                     | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ b3admin                | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ bds_establishment      | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres                    +
+                        |             |          |             |             | postgres=CTc/postgres           +
+                        |             |          |             |             | bds_user=c/postgres
+ bds_establishment_2012 | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres                    +
+                        |             |          |             |             | postgres=CTc/postgres           +
+                        |             |          |             |             | bds_user=c/postgres
+ bds_firm               | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres                    +
+                        |             |          |             |             | postgres=CTc/postgres           +
+                        |             |          |             |             | bds_user=c/postgres
+ bds_firm_2012          | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres                    +
+                        |             |          |             |             | postgres=CTc/postgres           +
+                        |             |          |             |             | bds_user=c/postgres
+ commercehub            | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ ctpp                   | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ discourse              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ discourse_development  | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ discourse_test         | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ gis                    | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ gtfs                   | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ gtfsgeocensus          | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ height                 | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ infogroup              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ mesonet                | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ njtdmData              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ npmrds                 | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ npmrds_api             | npmrds_user | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/npmrds_user                 +
+                        |             |          |             |             | npmrds_user=CTc/npmrds_user     +
+                        |             |          |             |             | npmrds_user_remote=c/npmrds_user
+ ny_parcels             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ padware                | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres               | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ qcew                   | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ qwi_api                | qwi_user    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/qwi_user                    +
+                        |             |          |             |             | qwi_user=CTc/qwi_user
+ stormEvents            | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ tdmData                | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres                     +
+                        |             |          |             |             | postgres=CTc/postgres
+ template1              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres                     +
+                        |             |          |             |             | postgres=CTc/postgres
+ transearch_2004        | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ transearch_2012        | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ transitModeler         | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ us_census              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ us_census2             | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ wimClient              | postgres    | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+(42 rows)
+

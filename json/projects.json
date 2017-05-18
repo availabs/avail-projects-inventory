@@ -1,0 +1,249 @@
+{
+  "availabs.org": {
+    "subdomain": ["@", "www"],
+    "github": "https://github.com/availabs/avail",
+    "server": "mars",
+    "code_dir": "avail/",
+    "type": "sails",
+    "port": 1337,
+    "sites-available": "www.availabs.org.conf",
+    "dbs": [],
+    "active": true
+  },
+  "aauth": {
+    "subdomain": "aauth",
+    "github": "https://github.com/availabs/avail_auth",
+    "server": "mars",
+    "code_dir": "avail_auth",
+    "type": "sails",
+    "port": 1442,
+    "sites-available": "aauth.availabs.org.conf",
+    "dbs": ["mars.avail_auth"]
+  },
+  "api": {
+    "subdomain": "api",
+    "server": "lor",
+    "sites-available": "apis.availabs.org"
+  },
+  "ark": {
+    "subdomain": "ark",
+    "server": "",
+    "github": "https://github.com/availabs/ar-kit/",
+    "active": "false"
+  },
+  "bds": {
+    "subdomain": "bds",
+    "github": "https://github.com/availabs/bdsAPI",
+    "server": "lor",
+    "code_dir": "bdsAPI",
+    "type": "sails",
+    "port": 1335,
+    "sites-available": "bds.availabs.org.conf",
+    "dbs": ["mars.bds_firm", "mars.bds_establishment"],
+    "active": true
+  },
+  "ch": {
+    "subdomain": "ch",
+    "github": "https://github.com/availabs/commercehub",
+    "type": "static",
+    "active": false
+  },
+  "custom-query.dev.npmrds": {
+    "subdomain": "custom-query.dev.npmrds",
+    "server": "demeter",
+    "active": false
+  },
+  "dev.npmrds": {
+    "subdomain": "dev.npmrds",
+    "github": "https://github.com/availabs/NPMRDS_3",
+    "server": "mars",
+    "code_dir": "NPMRDS_3",
+    "type": "static",
+    "sites-available": ["dev.npmrds.availabs.org.conf","dev.npmrds.availabs.org-le-ssl.conf"],
+    "apis": ["dev.npmrds/api"],
+    "active": true
+  },
+  "dev.npmrds/api": {
+    "subdomain": "dev.npmrds",
+    "github": "https://github.com/availabs/NPMRDS_Data",
+    "server": "mars",
+    "code_dir": "NPMRDS_Data.dev",
+    "type": "nodejs/express",
+    "port": 12222,
+    "sites-available": ["dev.npmrds.availabs.org.conf","dev.npmrds.availabs.org-le-ssl.conf"],
+    "dbs": "hermes.npmrds_api",
+    "active": true
+  },
+  "mesonet": {
+    "subdomain": "mesonet",
+    "github": "https://github.com/availabs/sMesonet",
+    "server": "lor",
+    "active": false
+  },
+  "njtransit": {
+    "subdomain": "njtransit",
+    "github": "https://github.com/availabs/transitModeler",
+    "server": "mars",
+    "code_dir": "btransitModeler",
+    "port": 1446,
+    "type": "sails",
+    "sites-available": "njtransit.availabs.org.conf",
+    "dbs":["demeter.transitModeler", "demeter.gtfsgeocensus","mars.ctpp"],
+    "active": true
+  },
+  "npmrds": {
+    "subdomain": "dev.npmrds",
+    "github": "https://github.com/availabs/NPMRDS_reboot",
+    "server": "mars",
+    "code_dir": "NPMRDS_reboot",
+    "type": "sails",
+    "port": 1339,
+    "sites-available": ["npmrds.availabs.org.conf","npmrds.availabs.org-le-ssl.conf"],
+    "apis": ["npmrds/api"],
+    "active": true
+  },
+  "npmrds/api": {
+    "subdomain": "dev.npmrds",
+    "github": "https://github.com/availabs/NPMRDS_reboot",
+    "server": "mars",
+    "code_dir": "NPMRDS_reboot",
+    "type": "node/express",
+    "port": 12062,
+    "sites-available": ["npmrds.availabs.org.conf","npmrds.availabs.org-le-ssl.conf"],
+    "dbs": ["hermes.npmrds_api"],
+    "active": true
+  },
+  "gtfs": {
+    "subdomain": "api/gtfs",
+    "server": "lor",
+    "github": "https://github.com/availabs/api-gtfs",
+    "code_dir": "api-gtfs",
+    "type": "sails",
+    "port": 1337,
+    "sites-available": ["api.availabs.org"],
+    "apis": "hermes.npmrds_api",
+    "active": true
+  },
+  "devtransit": {
+    "subdomain": "devtransit",
+    "github": "https://github.com/availabs/transitModeler",
+    "active": false
+  },
+  "stormevents": {
+    "subdomain": "stormevents",
+    "server": "lor",
+    "github": "https://github.com/availabs/stormevents",
+    "code_dir": "stormevents",
+    "type": "static",
+    "sites-available": ["stormevents.availabs.org.conf"],
+    "active": true
+  },
+  "mars": {
+    "subdomain": "mars",
+    "server": "mars"
+  },
+  "freightatlas": {
+    "subdomain": "freightatlas",
+    "server": "mars"
+  },
+  "siri.mta": {
+    "subdomain": "siri.mta",
+    "server": "mars"
+  },
+  "map.mta": {
+    "subdomain": "map.mta",
+    "server": "mars"
+  },
+  "geocensus": {
+    "subdomain": "geocensus",
+    "server": "mars"
+  },
+  "freight": {
+    "subdomain": "freight",
+    "server": "mars"
+  },
+  "qcew": {
+    "subdomain": "qcew",
+    "server": "mars"
+  },
+  "qwi": {
+    "subdomain": "qwi",
+    "server": "mars"
+  },
+  "fides": {
+    "subdomain": "fides",
+    "server": "fides"
+  },
+  "siri.mta.statenisland": {
+    "subdomain": "siri.mta.statenisland",
+    "server": "mars"
+  },
+  "siri.mta.lline": {
+    "subdomain": "siri.mta.lline",
+    "server": "mars"
+  },
+  "siri.mta.lirr": {
+    "subdomain": "siri.mta.lirr",
+    "server": "mars"
+  },
+  "dsio": {
+    "subdomain": "dsio",
+    "server": "lor"
+  },
+  "prometheus": {
+    "subdomain": "prometheus",
+    "server": "prometheus"
+  },
+  "ii": {
+    "subdomain": "ii",
+    "server": "mars"
+  },
+  "padware": {
+    "subdomain": "padware",
+    "server": "mars"
+  },
+  "pg.npmrds": {
+    "subdomain": "pg.npmrds",
+    "server": "hermes"
+  },
+  "ssl-test.npmrds": {
+    "subdomain": "ssl-test.npmrds",
+    "server": "fides"
+  },
+  "michael": {
+    "subdomain": "michael",
+    "server": "demeter"
+  },
+  "www": {
+    "subdomain": "www",
+    "server": "mars"
+  },
+  "wim": {
+    "subdomain": "wim",
+    "server": "avai.rit"
+  },
+  "zbp": {
+    "subdomain": "zbp",
+    "server": "mars"
+  },
+  "eea": {
+    "subdomain": "eea",
+    "server": "aws"
+  },
+  "map21": {
+    "subdomain": "map21",
+    "server": "aws"
+  },
+  "hermes": {
+    "subdomain": "hermes",
+    "server": "hermes"
+  },
+  "transmitter": {
+    "subdomain": "transmitter",
+    "server": "wcdb"
+  },
+  "transearch-api": {
+    "subdomain": "transearch-api",
+    "server": "mars"
+  }
+}
